@@ -1,0 +1,165 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Element Selector */
+h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Class Selector */
+.header-link {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+/* ID Selector */
+#footer {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Descendant Selector */
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Pseudo-Class Selector */
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2980b9;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+}
+
+/* Background Color for the Header */
+header {
+    background-color: #90EE90; /* Light Green color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Link Styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Margin, Padding, and Border */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Media Query for responsive design */
+@media (max-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    .header-link {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
